@@ -5,13 +5,22 @@
 
 ## Instalation ##
 
-Open your `.zshrc` file and load `vhost` plugin
+
+Clone this repository and add in ```custom/plugins``` folder
+
+```bash
+$ git clone git://github.com/willmendesneto/vhost.git ~/.oh-my-zsh/custom/plugins/vhost
+```
+
+Open your `.zshrc` file and load `vhost` plugin.
 
 ```bash
 ...
 plugins=( <your-plugins-list>... vhost)
 ...
 ```
+
+After this, restart your terminal and vhost plugin is configurated in you CLI.
 
 
 ## Commands ##
